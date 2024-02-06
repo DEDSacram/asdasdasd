@@ -1,0 +1,225 @@
+body {
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.uvnitr {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tabulka {
+  display: grid;
+  margin-bottom: 50px;
+  grid-auto-flow: column;
+  display: none;
+}
+
+.cenik {
+  float: left;
+  margin-bottom: 20px;
+  border-right: solid 1px rgba(217, 217, 217, 1);
+}
+
+.zn {
+  background-color: rgba(242, 251, 252, 1);
+}
+
+p {
+  /*  text-align: justify;  */
+}
+
+body {
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.uvnitr {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media all and (max-width: 1024px) {
+  .uvnitr {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .uvnitr {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    position: relative;
+  }
+
+  .top-600,
+  .top-700 {
+    margin-top: 0px;
+    padding: 10px;
+  }
+
+  .ostatni .bunka30 {
+    width: 49%;
+  }
+
+  .ostatni .bunka30:nth-child(2n) {
+    position: relative;
+    width: 49%;
+    margin-right: 0%;
+    margin-bottom: 2%;
+  }
+
+  .ostatni .bunka30:nth-child(3n) {
+    position: relative;
+    width: 49%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+
+  .bunka100 {
+    width: 100%;
+    border: solid 20px rgba(255, 255, 255, 1);
+    border-left: solid 20px rgba(255, 255, 255, 1);
+  }
+
+  .bunka50 {
+    margin-bottom: 100px;
+  }
+
+  .bunka50 .text {
+    bottom: auto;
+    top: 350px;
+    position: absolute;
+    width: 100%;
+  }
+
+  .bunka50 .text h3,
+  .bunka50 .text ul {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+  }
+
+  .bunka50 .text h3 a,
+  .bunka50 .text ul li a {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .bunka50:last-of-type a.link {
+    top: 350px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .ostatni .bunka50 .text {
+    top: auto;
+    position: absolute;
+    width: 100%;
+  }
+
+  .ostatni .bunka50 .text h3,
+  .ostatni .bunka50 .text ul {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-left: 5%;
+    padding-right: 0px;
+    margin-left: 0px;
+  }
+
+  .ostatni .bunka50 .text h3 a,
+  .ostatni .bunka50 .text ul li a {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.tabulka {
+  display: grid;
+  margin-bottom: 50px;
+  grid-auto-flow: column;
+  display: none;
+}
+
+.cenik {
+  float: left;
+  margin-bottom: 20px;
+  border-right: solid 1px rgba(217, 217, 217, 1);
+}
+
+.zn {
+  background-color: rgba(242, 251, 252, 1);
+}
+
+@media all and (max-width: 700px) {
+  .bottom50 {
+    padding-bottom: 0px;
+  }
+
+  .tabulka.aktivni {
+    display: grid;
+    grid-auto-flow: unset;
+  }
+
+  .tabulka {
+    display: none;
+    grid-auto-flow: unset;
+  }
+
+  .cenik {
+    float: left;
+    border-right: solid 1px rgba(217, 217, 217, 0);
+  }
+
+  .cenik div:nth-of-type(1) {
+    border-bottom: none;
+    text-align: center;
+  }
+
+  .cenik div:nth-of-type(2) {
+    border-top: none;
+    text-align: center;
+  }
+
+  .cenik div:nth-of-type(1) p {
+    border-bottom: solid 1px rgba(217, 217, 217, 1);
+    text-align: center;
+    height: 45px;
+    margin-bottom: 20px;
+  }
+}
+
+p {
+  /*  text-align: justify;  */
+}
